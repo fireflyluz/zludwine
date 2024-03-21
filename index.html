@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link
+	href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap"
+	rel="stylesheet"> -->
+
+<link rel="stylesheet" href="css/style.css" />
+<!-- <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+	crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+<script src="js/script" defer></script>
+
+<title>Ludwine Z - Ingénieur Logiciel</title>
+</head>
+<body>
+	<header class="p-4">
+		<nav class="bg-light navbar navbar-expand-md navbar-light fixed-top">
+			<div class="container">
+				<div>
+				<a href="index.html" class="navbar-brand fw-bold mx-1"> <!-- text-uppercase -->
+	    			<span class="text-bg-primary bg-gradient p-1 rounded-2">Ludwine</span> ZONON
+				</a>
+				<a href="#" class="bg-primary-subtle p-1 rounded-2">
+	    			<i class="bi bi-printer"></i>
+				</a>
+				</div>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+					data-bs-target="#navbarNav" aria-controls="navbarNav" 
+					aria-expanded="false" aria-label="Toggle navigation">
+				    
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+			            <li class="nav-item active">
+			                <a class="nav-link" href="#about">Qui suis-je ?</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link" href="#expertise">Expertises</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link" href="#parcours">Parcours</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link" href="#contact">Contact</a>
+			            </li>
+			        </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about" class="container bg-white my-5">
+			<div class="row align-items-center g-4">
+				<div class="col-12 col-md-8">
+					<h1 class="fw-bold">Ingénieur Logiciel</h1>
+					<h3 class="fw-light">
+						Depuis plus de 7 ans maintenant, j’exerce mon métier avec la
+						passion qui m’anime : créer des solutions innovantes.
+					</h3>
+					<a href="#expertise" class="btn btn-primary mt-3">Voir mon expertise</a>
+				</div>
+				<div class="col-12 col-md-4">
+					<img src="img/pp_pro_jpg_360.jpg" alt="Photo de Ludwine"
+						class="w-100 rounded">
+				</div>
+			</div>
+		</section>
+
+		<section id="expertise" class="container bg-light py-4">
+			<h2>Mon expertise</h2>
+			<h4 class="fw-light">Developpement WEB et logiciels</h4>
+			<div class="row g-4">
+				<!-- Expertise Backend -->
+				<div class="col-12 col-md-7">
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">Java 8/11/17</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="Java" 
+								aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="90%"">
+							  	<div class="progress-bar" style="width: 90%"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">Spring/Spring Boot</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="Spring" 
+								aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="90%">
+							  	<div class="progress-bar" style="width: 90%"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">C/C++</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="CCpp" 
+								aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="80%">
+							  	<div class="progress-bar" style="width: 80%"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">Python</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="Python" 
+								aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="65%">
+							  	<div class="progress-bar" style="width: 65%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 offset-md-1 col-md-4">
+					<!-- <img src="img/pp_pro_jpg_360.jpg" alt="Photo de Ludwine"
+						class="w-100"> -->
+					<div class="card text-bg-secondary h-100">
+				  		<div class="card-body">
+				    		<p class="card-text text-uppercase fw-bold text-center">BackEnd</p>
+				  		</div>
+					</div>
+				</div>
+			<!-- </div>
+			<div class="row g-4"> -->
+			<!-- Expertise Frontend -->
+				<div class="col-12 col-md-4">
+					<div class="card text-bg-secondary text-center h-100">
+				  		<div class="card-body">
+				    		<p class="card-text text-uppercase fw-bold">FrontEnd</p>
+				  		</div>
+					</div>
+				</div>
+				<div class="col-12 offset-md-1 col-md-7">
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">HTML5/CSS3</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="HtmlCss" 
+								aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="80%">
+							  	<div class="progress-bar" style="width: 80%"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">Sass/Less</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="SassLess" 
+								aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="65%">
+							  	<div class="progress-bar" style="width: 65%"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">Vaadin 7/8/14</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="Vaadin" 
+								aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="75%">
+							  	<div class="progress-bar" style="width: 75%"></div>
+							</div>
+						</div>
+					</div>	
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">JavaScript</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="Javascript" 
+								aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="60%">
+							  	<div class="progress-bar" style="width: 60%"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg-white shadow-sm rounded g-2 my-1">
+						<div class="col-5 col-md-4 col-lg-3">
+							<p class="text-center fw-bold">Apache Wicket</p>
+						</div>
+						<div class="col py-2">
+							<div class="progress" role="progressbar" aria-label="Wicket" 
+								aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"
+								data-bs-toggle="tooltip" data-bs-title="55%">
+							  	<div class="progress-bar" style="width: 55%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 
+			Database
+				MySQL
+				MariaDB
+				PosgreSQL
+				MongoDB
+				Apache Solr 
+				Hibernate
+				Spring Data
+			Architect
+				REST API 
+				Webservices
+				Microservices
+			DevOps
+				Linux
+				Docker
+				Kubernetes
+				AWS
+				Spring Cloud
+		 -->
+		<section id="parcours" class="container bg-white py-4">
+			<h2>Mon parcours</h2>
+			
+			<h4 class="fw-light">Parcours professionnel</h4>
+			<div class="row g-4">
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="card text-bg-primary h-100">
+						<h4 class="card-header fw-bold">Sept 2023 - Déc 2023</h4>
+					  	<div class="card-body">
+					  		<h5 class="text-center fw-bold">Prestataire Informatique</h5>
+					    	<h5 class="">Emergent Value of TIC SARL</h5>
+					  	</div>
+					  	<div class="card-footer text-end">
+					  		<a class="btn btn-secondary" href="#proj_1" data-bs-toggle="offcanvas"
+					  			role="button" aria-controls="proj_1">
+					  			Projets réalisés
+					  		</a>
+  						</div>
+					</div>
+					<div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="proj_1" 
+						aria-labelledby="proj_1Label">
+					  	<div class="offcanvas-header">
+					    	<h5 class="offcanvas-title" id="proj_1Label">Projet réalisé à EVTIC SARL</h5>
+					    	<button type="button" class="btn-close" data-bs-dismiss="offcanvas" 
+					    		aria-label="Close"></button>
+					  	</div>
+						<div class="offcanvas-body">
+							<ul>
+								<li>
+									<h6>ALÔZÔ</h6>
+									<p>
+										Application mobile servant à retrouver les artisans les plus 
+										proches et à les contacter.
+										<a></a>
+									</p>
+									Taches accomplies sur ce projet :
+									<ul>
+										<li>
+											Conception et developpement de l'API REST
+										</li>
+									</ul>
+								</li>
+							</ul>  	
+						    	Content for the offcanvas goes here. You can place just about any 
+						    	Bootstrap component or custom elements here.
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="card text-bg-primary h-100">
+						<h4 class="card-header fw-bold">Mars 2023</h4>
+					  	<div class="card-body">
+					  		<h5 class="text-center fw-bold">Prestataire Informatique</h5>
+					    	<h5>Telemed Afrika SA</h5>
+					  	</div>
+					  	<div class="card-footer text-end">
+					  		<a class="btn btn-secondary" href="#proj_2" data-bs-toggle="offcanvas"
+					  			role="button" aria-controls="proj_2">
+					  			Projets réalisés
+					  		</a>
+  						</div>
+					</div>
+				</div>
+				<div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="proj_2" 
+						aria-labelledby="proj_2Label">
+					<div class="offcanvas-header">
+				    	<h5 class="offcanvas-title" id="proj_2Label">Projet réalisé à EVTIC SARL</h5>
+				    	<button type="button" class="btn-close" data-bs-dismiss="offcanvas" 
+				    		aria-label="Close"></button>
+				  	</div>
+					<div class="offcanvas-body">
+						<ul>
+							<li>
+								<h6>GeMed</h6>
+								<p>
+									SIH de gestion hospitaliere
+									<a></a>
+								</p>
+								Taches accomplies sur ce projet :
+								<ul>
+									<li>
+										Ajout de nouvelles fonctionnalites
+									</li>
+								</ul>
+							</li>
+						</ul>  	
+					</div>
+				</div>
+				
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="card text-bg-primary h-100">
+						<h4 class="card-header fw-bold">Janv 2021 - Déc 2022</h4>
+					  	<div class="card-body">
+					  		<h5 class="text-center fw-bold">Prestataire Informatique</h5>
+					    	<h5>Telemed Afrika SA</h5>
+					  	</div>
+					  	<div class="card-footer text-end">
+					  		<a class="btn btn-secondary" href="#proj_3" data-bs-toggle="offcanvas"
+					  			role="button" aria-controls="proj_3">
+					  			Projets réalisés
+					  		</a>
+  						</div>
+					</div>
+				</div>
+				
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="card text-bg-primary h-100">
+						<h4 class="card-header fw-bold">Déc 2016 - Déc 2020</h4>
+					  	<div class="card-body">
+					  		<h5 class="text-center fw-bold">Responsable Technique</h5>
+					    	<h5>Medical and Pharmaceutical Informatics SARL</h5>
+					  	</div>
+					  	<div class="card-footer text-end">
+					  		<a class="btn btn-secondary" href="#proj_4" data-bs-toggle="offcanvas"
+					  			role="button" aria-controls="proj_4">
+					  			Projets réalisés
+					  		</a>
+  						</div>
+					</div>
+				</div>
+				
+				<div class="col-12 col-md-6 col-xl-3">
+					<div class="card text-bg-primary h-100">
+						<h4 class="card-header fw-bold">Aout 2016 - Oct 2016</h4>
+					  	<div class="card-body">
+					  		<h5 class="text-center fw-bold">Prestataire Informatique</h5>
+					    	<h5>SERHAU SA</h5>
+					  	</div>
+					  	<div class="card-footer text-end">
+					  		<a class="btn btn-secondary" href="#proj_5" data-bs-toggle="offcanvas"
+					  			role="button" aria-controls="proj_5">
+					  			Projets réalisés
+					  		</a>
+  						</div>
+					</div>
+				</div>
+			</div>
+			
+			<h4 class="fw-light my-4">Parcours éducatif</h4>
+			<div class="row g-4">
+				<div class="col-12 col-md-6">
+					<div class="card text-bg-secondary h-100">
+						<h4 class="card-header">Juin 2015</h4>
+					  	<div class="card-body">
+					    	<p class="card-text text-center fw-bold">Université d'Etat d'Electrotechnique de Saint-Pétersbourg, Russie</p>
+					    	<h5 class="card-text">Master en <strong>Génie Logiciel</strong></h5>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="card text-bg-secondary h-100">
+						<h4 class="card-header">Juin 2013</h4>
+					  	<div class="card-body">
+					    	<p class="card-text text-center fs-italic">Université d'Etat d'Electrotechnique de Saint-Pétersbourg, Russie</p>
+					    	<h5 class="card-text">Bachelor en <strong>Informatique et Techniques Numériques</strong></h5>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Mon parcours
+				Professionnel
+					date 
+					compagnie
+					poste
+					
+					responsabilites/roles
+					
+					projets
+						descriptif bef
+						stack
+						competences acqu
+		 -->
+		 
+		<section id="contact" class="container bg-light py-4">
+			<h2>Un projet en tête?</h2>
+			<h4 class="fw-light">Laissez-moi un message</h4>
+			<div class="row g-4">
+				<div class="col-2 col-md-2 col-lg-1">
+					<!-- <img src="img/pp_pro_jpg_360.jpg" alt="Photo de Ludwine"
+						class="w-100"> -->
+					<div class="card text-bg-secondary h-100">
+					  	<div class="card-body">
+					  		<i class="bi bi-chat-dots"></i>
+					    </div>
+					</div>
+				</div>
+				<div class="col-10 col-md-10 col-lg-11">
+					<form>
+						<div class="row g-2">
+							<div class="col my-1">
+							    <label for="p_name" class="form-label">Prénom</label>
+							    <input type="text" class="form-control" id="p_name">
+							</div>
+							<div class="col my-1">
+							    <label for="p_name" class="form-label">Nom</label>
+							    <input type="text" class="form-control" id="p_name">
+							</div>
+						</div>
+						<div class="my-1">
+						    <label for="p_enail" class="form-label">Adresse E-mail</label>
+						    <input type="email" class="form-control" id="p_email">
+					  	</div>
+					  	<div class="my-1">
+						    <label for="p_message" class="form-label">Message</label>
+						    <textarea class="form-control" id="p_message"></textarea>
+						</div>
+						<div class="text-end">
+							<button type="submit" class="btn btn-primary my-2">Envoyer</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- <section>
+			<h2>Ma dernière expérience</h2>
+			<div>
+				<img src="images/tb_cit1.jpg" alt="Photo 1"> <img
+					src="images/tb_cit1.jpg" alt="Photo 2"> <img
+					src="images/tb_cit1.jpg" alt="Photo 3">
+			</div>
+			<div>
+				<img src="images/tb_cit1.jpg" alt="Photo 4"> <img
+					src="images/tb_cit1.jpg" alt="Photo 5"> <img
+					src="images/tb_cit1.jpg" alt="Photo 6">
+			</div>
+		</section>
+		<section id="contact-form" class="contact_form">
+			<h2>Parlons de votre projet</h2>
+			<form action="" method="get">
+				<div class="form-nom-email">
+					<div class="form-column">
+						<label for="name">Nom</label> <input type="text" name="name"
+							id="name">
+					</div>
+					<div class="form-column">
+						<label for="email">E-mail</label> <input type="email" name="email"
+							id="email">
+					</div>
+				</div>
+				<label for="message">Message</label>
+				<textarea name="message" id="message" rows="10"></textarea>
+				<input type="submit" value="ENVOYER" class="action_button">
+			</form>
+		</section> -->
+	</main>
+
+	<footer class="bg-light">
+		<div class="container py-4">
+			<div class="row g-4">
+				<div class="col-12 col-md-4 text-center text-md-start">
+					<a href="index.html" class="navbar-brand fw-bold mx-1"> <!-- text-uppercase -->
+		    			<span class="text-bg-primary bg-gradient p-1 rounded-2">Ludwine</span> ZONON
+					</a>
+				</div>
+				<div class="col-12 col-md-4 text-center">
+					<a href="#legal" data-bs-toggle="modal">Mentions légales - 2024</a>
+					<div id="legal" class="modal" tabindex="-1">
+						<div class="modal-dialog modal-dialog-center">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title">Mentions légales</h5>
+									<button type="button" class="btn-close" 
+										data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body text-start">
+									<p>
+										Ut velit mauris, egestas sed, gravida nec, 
+										ornare ut, mi. Aenean ut orci vel massa suscipit 
+										pulvinar. Nulla sollicitudin. Fusce varius, ligula
+										non tempus aliquam, nunc turpis ullamcorper nibh, 
+										in tempus sapien eros vitae ligula. Pellentesque 
+										rhoncus nunc et augue. Integer id felis. Curabitur 
+										aliquet pellentesque diam. Integer quis metus vitae 
+										elit lobortis egestas. Lorem ipsum dolor sit amet, 
+										consectetuer adipiscing elit. Morbi vel erat non 
+										mauris convallis vehicula. Nulla et sapien. Integer 
+										tortor tellus, aliquam faucibus, convallis id, 
+										congue eu, quam. Mauris ullamcorper felis vitae erat. 
+										Proin feugiat, augue non elementum posuere, metus purus
+										 iaculis lectus, et tristique ligula justo vitae magna.
+									</p>
+									<p>
+										Aliquam convallis sollicitudin purus. Praesent 
+										aliquam, enim at fermentum mollis, ligula massa 
+										adipiscing nisl, ac euismod nibh nisl eu lectus. 
+										Fusce vulputate sem at sapien. Vivamus leo. 
+										Aliquam euismod libero eu enim. Nulla nec felis 
+										sed leo placerat imperdiet. Aenean suscipit nulla 
+										in justo. Suspendisse cursus rutrum augue. Nulla 
+										tincidunt tincidunt mi. Curabitur iaculis, lorem 
+										vel rhoncus faucibus, felis magna fermentum augue, 
+										et ultricies lacus lorem varius purus. Curabitur eu amet.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 text-center text-md-end fs-2">
+					<!-- <ul>
+						<li><a href="https://linkedin.com" target="_blank">
+							<i class="bi bi-linkedin"></i>
+						</a></li>
+					</ul> -->
+					<a href="https://linkedin.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="LinkedIn"><i class="bi bi-linkedin text-dark"></i></a> 
+					<a href="https://github.com" target="_blank" 
+						data-bs-toggle="tooltip" data-bs-title="GitHub"><i class="bi bi-github text-dark"></i></a>
+					<a href="https://gitlab.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="GitLab"><i class="bi bi-gitlab text-dark"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+		
+	<script>
+	      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+	      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+</html>
